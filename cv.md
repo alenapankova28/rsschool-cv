@@ -40,19 +40,6 @@ function testCycle(n) {
 }
 ```
 
- The number n (n > 0) is given. Return the following amount from the function: 1 + 1.5 + 2 + 2.5 + ... + n
-1+1.5+2+2.5+...+n. 
-
- ```
- function testCycle(n) {
-    var x = 0;
-    for (i=1; i<=n; i+=0.5) {
-        x = x + i;
-    }
-    return x;
-}
- ```
-
 ### Courses:
 * JavaScript for beginners on stepik.org (in progress)
 * JavaScript Manual on learnjavascript.ru (in progress)
