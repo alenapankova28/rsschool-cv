@@ -30,14 +30,13 @@ In addition, I consider the solid experience of remote work to be my advantage.
 
 Find the sum of all integers from 1 to n inclusive and return the result from the function.
 
-``` function testCycle(n) {
+```function testCycle(n) {
     var x=0;
     for (i=1; i<=n; i++) {
         x = x+i;
     }
     return x;
-}
- ```
+}```
 
  The number n (n > 0) is given. Return the following amount from the function: 1 + 1.5 + 2 + 2.5 + ... + n
 1+1.5+2+2.5+...+n. 
