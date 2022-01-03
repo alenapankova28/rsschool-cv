@@ -90,13 +90,13 @@ a {
     
 }
 
-ul {
+.header-contact-links {
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
     
    }
 
-ul>li {
+.links {
     display: inline; /* Отображать как строчный элемент */
     margin-right: 5px; /* Отступ слева */
     
@@ -133,4 +133,47 @@ ul>li {
     padding: 0.5rem 0;
 
 
+}
+
+.right-resume {
+    padding: 0 2rem;
+    text-align: left;
+   
+}
+
+.blockquotes {
+    background-color: var(--lineColor);
+}
+.footer-logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer {
+    max-width: 800px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    justify-content: center;
+}
+
+
+.rslogo {
+    width: 60px;
+}
+.github-logo {
+    width: 60px;
+}
+.footer-text {
+    font-weight: 30px;
+}
+
+@media screen and (max-width: 630px) {
+    .left-resume {
+        border-right: none;
+        text-align: left;
+    }
 }
